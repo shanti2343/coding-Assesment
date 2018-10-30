@@ -1,52 +1,53 @@
 <html>
 <head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 </head>
 
 <body>
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
-  </div>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+	  <a class="navbar-brand" href="#" style="color: white">Navbar</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav">
+		  <li class="nav-item active">
+			<a class="nav-link" href="#" style="color: white">Home <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#" style="color: white">Features</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#" style="color: white">Pricing</a>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+			  Dropdown link
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="#">Action</a>
+			  <a class="dropdown-item" href="#">Another action</a>
+			  <a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		  </li>
+		</ul>
+	  </div>
 </nav>
 <article>
 <p>
 Suspendisse sit amet felis ut massa egestas tincidunt. Nulla velit orci, pulvinar quis sollicitudin et, ultrices at nisi. Morbi velit justo, sagittis at porttitor pulvinar, tincidunt condimentum turpis. Nullam nisi ante, malesuada sit amet rutrum sodales, viverra sed tellus. Donec in sodales massa. Suspendisse potenti. Mauris non pretium dui.  
 <br>
-<h4> Huey Duck </h4> <img src="img/huey.png" title="Huey Duck" alt="unable to display image"> <br>
+<h4 class="text-center"> Ethan Stebbins </h4> <img src="img/huey.png" title="Ethan Stebbins" alt="unable to display image" class="rounded mx-auto d-block"> <br>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta faucibus massa, at lacinia dolor lacinia eget. Donec non orci dolor. Cras consectetur lacinia dictum. Donec porta aliquet metus sed vehicula. Duis non nisl ultrices nisl iaculis placerat. Sed quis urna et neque ultricies placerat. Integer sit amet erat vel tellus ultrices mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque vestibulum tellus justo, vitae imperdiet lorem ultricies id. Pellentesque tristique porta mi vel placerat. Integer laoreet ligula velit, vitae vehicula mi ultrices et. Praesent a quam efficitur, interdum nisi ut, egestas orci.
 <br>
-<h4> Dewey Duck </h4> <img src="img/dewey.png" title="Dewey Duck" alt="unable to display image"> <br>
+<h4 class="text-center"> Max Turnbull </h4> <img src="img/Max.jpg" title="Max Turnbull" alt="unable to display image" class="rounded mx-auto d-block" height="200" width="200"> <br>
 Phasellus consequat urna ut mauris aliquam vehicula tristique et ligula. Sed quis orci vitae leo maximus ultrices at fringilla tellus. Aenean ac ex pretium, sollicitudin mi non, luctus orci. Proin quis odio egestas, condimentum leo eu, venenatis massa. Duis pulvinar sagittis mi, non vulputate mauris sodales in. Etiam consectetur consequat libero, id ultricies magna tempus vel. Cras lacinia eros ornare metus mattis, accumsan cursus est accumsan. Pellentesque id lacus sed metus auctor pellentesque sed sit amet mi. Duis urna nunc, aliquam ac malesuada eu, maximus sed leo.
 <br> 
-<h4> Louie Duck </h4> <img src="img/Louie.png" title="Louie Duck" alt="unable to display image"> <br>
+<h4 class="text-center"> Ryan Zimmermann </h4> <img src="img/Louie.png" title="Ryan Zimmermann" alt="unable to display image" class="rounded mx-auto d-block"> <br>
 Donec sit amet elit eros. Pellentesque at vulputate erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce vel faucibus tellus. Quisque quis tortor tellus. Curabitur et ipsum nec enim vulputate fermentum. Nam at accumsan enim. Etiam scelerisque, justo ut iaculis sagittis, ante est eleifend tortor, in pretium sem est vitae massa. Nunc ornare, nulla ut fermentum volutpat, nulla ante egestas dolor, id tristique sem dolor sit amet elit. Nam in pretium dui, consectetur faucibus sapien. Vestibulum ut iaculis sem. Duis euismod libero ut tortor lobortis, id aliquam turpis ullamcorper. 
 </p>
 </article>
