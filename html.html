@@ -1,6 +1,10 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 </head>
 
 <body>
@@ -8,16 +12,16 @@
 <h1>HTML Reflection</h1>
 </header>
 
-<nav>
-<h3> 
-	<ul>
-		<li><a href="home.html">Home</a></li>
-		<li><a href="test.html">Test Specification</a></li>
-		<li><a href="python_blockly.html">Coding Reflection</a></li>
-		<li><a href="html.html">HTML Reflection</a></li>
-	</ul> 
-</h3>
-
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: orangered">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+			  Menu
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: orangered">
+			  <a class="dropdown-item" href="index.html" style="color: white">Home</a>
+			  <a class="dropdown-item" href="python_blockly.html" style="color: white">Coding</a>
+			  <a class="dropdown-item" href="test.html" style="color: white">Test</a>
+			  <a class="dropdown-item" href="html.html" style="color: white">html</a>
+			</div>
 </nav>
 
 

@@ -1,6 +1,10 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 </head>
 
 <body>
@@ -8,114 +12,62 @@
 <h1>Test Specification Page</h1>
 </header>
 
-<nav>
-<h3> 
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="test.html">Test Specification</a></li>
-		<li><a href="python_blockly.html">Coding Reflection</a></li>
-		<li><a href="html.html">HTML Reflection</a></li>
-	</ul> 
-</h3>
-
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: orangered">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+			  Menu
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: orangered">
+			  <a class="dropdown-item" href="index.html" style="color: white">Home</a>
+			  <a class="dropdown-item" href="python_blockly.html" style="color: white">Coding</a>
+			  <a class="dropdown-item" href="test.html" style="color: white">Test</a>
+			  <a class="dropdown-item" href="html.html" style="color: white">html</a>
+			</div>
 </nav>
-
 
 <article>
 <p> This page specifies who worked on which parts of the project. Naturally everyone contributed to all pages of the website, whether by editing or helping to write/flow of ideas, assisting with coding, providing photos, information, reflections or projecs to embed, however this page outlines which page each person had as their major focus. In other words, who did the most work on each page.
 </p>
 
-<table border="1" style="width:100%">
-<tr style="background-color:lightblue;"> 
-	<th>Feature</th> 
-	<th>Developed</th> 
-	<th>Description</th>
-	<th>Tested On</td>
-	<th>Results and Comments</th>
-</tr>
-
-<tr>
-	<td>Home</td>
-	<td>Hewey</td>
-	<td>This is the starting point of our website, it contains an introduction to our project, a few self introduction paragraphs and the list of features of our website. </td>
-	<td>23/6/17</td>
-	<td>yes</td>
-</tr>
-
-<tr>
-	<td>Test Specification</td>
-	<td>Hewey</td>
-	<td>This page contains a HTML table listing the features of our website. For each feature it evaluates the feature, developer, gives a brief description, test, comments and a reflection </td>
-	<td>25/6/17</td>
-	<td>yes</td>
-</tr>
-
-<tr>
-	<td>Coding Reflection</td>
-	<td>Dewey</td>
-	<td></td>
-	<td>25/6/17</td>
-	<td>yes</td>
-</tr>
-
-<tr>
-	<td>HTML Reflection</td>
-	<td>Hewey, Dewey and Louie </td>
-	<td>Blah blah blah QUACK!</td>
-	<td>25/6/17</td>
-	<td>yes</td>
-</tr>
-
-<tr>
-	<td>Information on Photos</td>
-	<td>Dewey</td>
-	<td>Blah blah blah</td>
-	<td>20/6 - 21/6</td>
-	<td>yes</td>
-</tr>
-
-<tr>
-	<td>Styles.css</td>
-	<td>Hewey</td>
-	<td>This is the style sheet which we linked to all the pages of this website and used to style and structure all the pages.</td>
-	<td>3 weeks ago</td>
-	<td>yes</td>
-</tr>
-
-<tr>
-	<td>Linking</td>
-	<td>Everyone??? </td>
-	<td>This is the feature which links all the pages together and allows for clear navigation between each page. </td>
-	<td>all throughout</td>
-	<td>yes</td>
-</tr>
-
-<tr>
-	<td>Template</td>
-	<td>Sophie</td>
-	<td>This feature is the very first piece of work which was done on the project, a coded template which all of the pages fitted into. </td>
-	<td>3 weeks ago</td>
-	<td>yes</td>
-</tr>
-
-<tr>
-	<td>Navigation</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>Presentation</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-</tr>
-
-</table>
-<p>
-
+<style>
+	.col {
+		background-color: rgba(147, 112, 219, 0.4);
+		color: black;
+		border-color: lightgray;
+		border-width: 2px;
+		border-style: inset;
+		border-left: 0px;
+		border-bottom: 0px;
+		border-top: 0px;
+		
+	}
+	.topr {
+		border-right: 0px;
+		border-top-right-radius: 8px;
+	}
+	.topl {
+		border-top-left-radius: 8px;
+	}
+</style>
+<div class="container">
+	<div class="row justify-content-md-center">
+    	<div class="col topl">
+      		Feature
+    	</div>
+    	<div class="col">
+     		Developed
+    	</div>
+		<div class="col">
+			Description
+		</div>
+		<div class="col">
+			Tested On
+		</div>
+		<div class="col topr">
+			Results and Comments
+		</div>
+	</div>
+</div>
+	
 </article>
 
 <footer>
