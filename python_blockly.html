@@ -1,46 +1,58 @@
- <html>
+<!DOCTYPE html>
+<html>
 <head> 
-
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 </head>
 
 <body>
 <header>
 <h1>Coding Reflection</h1>
 </header>
-<nav>
-<h4> 
-	<ul>
-		<li><a href="home.html">Home</a></li>
-		<li><a href="test.html">Test Specification Page</a></li>
-		<li><a href="python_blockly.html">Coding Reflection</a></li>
-		<li><a href="html.html">HTML Reflection</a></li>
-	</ul> 
-</h4>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: orangered">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black">
+			  Menu
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: orangered">
+			  <a class="dropdown-item" href="index.html" style="color: black">Home</a>
+			  <a class="dropdown-item" href="python_blockly.html" style="color: black">Coding</a>
+			  <a class="dropdown-item" href="test.html" style="color: black">Test</a>
+			  <a class="dropdown-item" href="html.html" style="color: black">html</a>
+			</div>
 </nav>
-
 <article>
+	
+	<style>
+		.textcenter {
+			text-align: center;
+			margin-left: 200px;
+			margin-right: 200px;
+		}	
+	</style>
     
-<img src='' alt='Hewey&apos;s Python project'/>
-<h4><b>Hewey's Python project </b></h4>
-<p>
+<img src="img/PH.png" alt="Ethan&apos;s Python project" class="rounded mx-auto d-block" height="600" width="600"/>
+<h4 class="textcenter"><b>Ethan's Python project </b></h4>
+<p class="textcenter">
 Duis mauris ante, iaculis at ipsum id, volutpat pretium leo. Aliquam ac maximus augue. Nam non elit vel ipsum mollis scelerisque at quis justo. Phasellus eget nibh neque. Cras nibh nulla, viverra quis venenatis scelerisque, venenatis nec purus. Nulla sed egestas risus. Donec risus elit, varius at turpis sed, sollicitudin iaculis nisi. Morbi ac neque id lectus lacinia congue. Morbi quis ultricies arcu, ac tincidunt urna. Aliquam sodales sed dolor ut accumsan. Quisque malesuada convallis massa nec interdum. Aenean feugiat odio id malesuada pellentesque. Vestibulum malesuada, nulla porttitor tempor dapibus, quam lacus fermentum arcu, sed facilisis orci nisi sed ante. Cras quis vulputate dolor, in iaculis sapien. Suspendisse tempus turpis leo, eu dapibus diam iaculis in.
 </p>
 
-<img src='' alt='Dewey&apos;s Python project'/>
-<h4> <b> Dewey's Python project </b> </h4>
-<p>Donec sit amet elit eros. Pellentesque at vulputate erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce vel faucibus tellus. Quisque quis tortor tellus. Curabitur et ipsum nec enim vulputate fermentum. Nam at accumsan enim. Etiam scelerisque, justo ut iaculis sagittis, ante est eleifend tortor, in pretium sem est vitae massa. Nunc ornare, nulla ut fermentum volutpat, nulla ante egestas dolor, id tristique sem dolor sit amet elit. Nam in pretium dui, consectetur faucibus sapien. Vestibulum ut iaculis sem. Duis euismod libero ut tortor lobortis, id aliquam turpis ullamcorper. </p>
+<script src="//onlinegdb.com/embed/js/By_F11W6Q?theme=dark" alt="LOADING..." style="height=750px;"></script>
+<h4 class="textcenter"> <b> Max's Python project </b> </h4>
+<p class="textcenter">My Python assignment was a code where the user puts in their height, and it will make a joke. After this it asks if the user is fine with another joke, and if they say yes, the code makes another one but if they say no, the code apologises and then it ends. The Python program is great for these types of tasks, it excels at IF and ELSE functions and it is a nice, little quick tool to help make small to big projects. If I had more time for the project, I could add in many more variables to make this game way more entertaining. </p>
 
-<img src='' alt='Louie&apos;s Blockly project'/>
-<h4> <b> Louie's Blockly project </b> </h4>
+<script src="//onlinegdb.com/embed/js/HygG-ybp7?theme=dark" alt="LOADING..." style="height=750px;"></script>
+<h4 class="textcenter"> <b> Ryan's Python project </b> </h4>
 
-<p>Phasellus consequat urna ut mauris aliquam vehicula tristique et ligula. Sed quis orci vitae leo maximus ultrices at fringilla tellus. Aenean ac ex pretium, sollicitudin mi non, luctus orci. Proin quis odio egestas, condimentum leo eu, venenatis massa. Duis pulvinar sagittis mi, non vulputate mauris sodales in. Etiam consectetur consequat libero, id ultricies magna tempus vel. Cras lacinia eros ornare metus mattis, accumsan cursus est accumsan. Pellentesque id lacus sed metus auctor pellentesque sed sit amet mi. Duis urna nunc, aliquam ac malesuada eu, maximus sed leo.
+<p class="textcenter">Phasellus consequat urna ut mauris aliquam vehicula tristique et ligula. Sed quis orci vitae leo maximus ultrices at fringilla tellus. Aenean ac ex pretium, sollicitudin mi non, luctus orci. Proin quis odio egestas, condimentum leo eu, venenatis massa. Duis pulvinar sagittis mi, non vulputate mauris sodales in. Etiam consectetur consequat libero, id ultricies magna tempus vel. Cras lacinia eros ornare metus mattis, accumsan cursus est accumsan. Pellentesque id lacus sed metus auctor pellentesque sed sit amet mi. Duis urna nunc, aliquam ac malesuada eu, maximus sed leo.
 </p>
 
 
 </article>
-<footer>
-<h5>By Huey, Dewey and Louie</h5>
+<footer class="textcenter">
+<h5>By Ethan, Max and Ryan</h5>
 
 <a href="python_blockly.html">Back to top</a>
 </footer>
